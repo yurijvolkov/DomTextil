@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomTextil", "DomTextil\DomTextil.csproj", "{A1699B3A-571D-456F-9FEA-40F8BCDECA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomTextil.Tests", "DomTextil.Tests\DomTextil.Tests.csproj", "{0E96D867-5BD9-4489-AE30-9FF602876DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomTextil.Domain", "DomTextil.Domain\DomTextil.Domain.csproj", "{9861B9A2-3B48-47B7-BEB7-B7AE0288BBC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1699B3A-571D-456F-9FEA-40F8BCDECA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1699B3A-571D-456F-9FEA-40F8BCDECA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1699B3A-571D-456F-9FEA-40F8BCDECA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1699B3A-571D-456F-9FEA-40F8BCDECA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E96D867-5BD9-4489-AE30-9FF602876DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E96D867-5BD9-4489-AE30-9FF602876DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E96D867-5BD9-4489-AE30-9FF602876DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E96D867-5BD9-4489-AE30-9FF602876DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9861B9A2-3B48-47B7-BEB7-B7AE0288BBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9861B9A2-3B48-47B7-BEB7-B7AE0288BBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9861B9A2-3B48-47B7-BEB7-B7AE0288BBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9861B9A2-3B48-47B7-BEB7-B7AE0288BBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
