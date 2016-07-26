@@ -10,6 +10,7 @@ namespace DomTextil.Domain.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "DomTextil.Domain.Concrete.EFDbContext";
         }
 
         protected override void Seed(DomTextil.Domain.Concrete.EFDbContext context)
