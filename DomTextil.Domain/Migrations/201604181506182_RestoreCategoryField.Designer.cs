@@ -7,13 +7,13 @@ namespace DomTextil.Domain.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class addNews : IMigrationMetadata
+    public sealed partial class RestoreCategoryField : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addNews));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(RestoreCategoryField));
         
         string IMigrationMetadata.Id
         {
-            get { return "201605051416210_addNews"; }
+            get { return "201604181506182_RestoreCategoryField"; }
         }
         
         string IMigrationMetadata.Source

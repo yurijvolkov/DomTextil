@@ -52,35 +52,10 @@
     <Compile Include="Abstract\IProductRepository.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
     <Compile Include="Concrete\EFProductRepository.cs" />
-    <Compile Include="Entities\Discount.cs" />
-    <Compile Include="Entities\News.cs" />
-    <Compile Include="Entities\NewThings.cs" />
-    <Compile Include="Entities\Post.cs" />
     <Compile Include="Entities\Product.cs" />
-    <Compile Include="Entities\TransferHelp.cs" />
-    <Compile Include="Migrations\201604192156131_InitialCreate.cs" />
-    <Compile Include="Migrations\201604192156131_InitialCreate.Designer.cs">
-      <DependentUpon>201604192156131_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605051416210_addNews.cs" />
-    <Compile Include="Migrations\201605051416210_addNews.Designer.cs">
-      <DependentUpon>201605051416210_addNews.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605051449257_AddNewsPublishTime.cs" />
-    <Compile Include="Migrations\201605051449257_AddNewsPublishTime.Designer.cs">
-      <DependentUpon>201605051449257_AddNewsPublishTime.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605052120460_AddNewThingsDiscont.cs" />
-    <Compile Include="Migrations\201605052120460_AddNewThingsDiscont.Designer.cs">
-      <DependentUpon>201605052120460_AddNewThingsDiscont.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605052122222_AddNewThingsDiscont1.cs" />
-    <Compile Include="Migrations\201605052122222_AddNewThingsDiscont1.Designer.cs">
-      <DependentUpon>201605052122222_AddNewThingsDiscont1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605052211294_AddNewThingsDiscont3.cs" />
-    <Compile Include="Migrations\201605052211294_AddNewThingsDiscont3.Designer.cs">
-      <DependentUpon>201605052211294_AddNewThingsDiscont3.cs</DependentUpon>
+    <Compile Include="Migrations\201604181506182_RestoreCategoryField.cs" />
+    <Compile Include="Migrations\201604181506182_RestoreCategoryField.Designer.cs">
+      <DependentUpon>201604181506182_RestoreCategoryField.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,23 +65,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201604192156131_InitialCreate.resx">
-      <DependentUpon>201604192156131_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605051416210_addNews.resx">
-      <DependentUpon>201605051416210_addNews.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605051449257_AddNewsPublishTime.resx">
-      <DependentUpon>201605051449257_AddNewsPublishTime.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605052120460_AddNewThingsDiscont.resx">
-      <DependentUpon>201605052120460_AddNewThingsDiscont.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605052122222_AddNewThingsDiscont1.resx">
-      <DependentUpon>201605052122222_AddNewThingsDiscont1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605052211294_AddNewThingsDiscont3.resx">
-      <DependentUpon>201605052211294_AddNewThingsDiscont3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201604181506182_RestoreCategoryField.resx">
+      <DependentUpon>201604181506182_RestoreCategoryField.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
