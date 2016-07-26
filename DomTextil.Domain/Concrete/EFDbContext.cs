@@ -14,5 +14,8 @@ namespace DomTextil.Domain.Concrete
         
         
         public DbSet<Entities.Product> Products { get; set; }
+        public DbSet<Entities.News> News { get; set; }
+        public DbSet<Entities.Discount> Discount { get; set; }
+        public DbSet<Entities.NewThings> NewThings { get; set; }
     }
 }

@@ -3,20 +3,19 @@ namespace DomTextil.Domain.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class RestoreCategoryField : DbMigration
+    public partial class addNews : DbMigration
     {
         public override void Up()
         {
             CreateTable(
-                "dbo.Products",
+                "dbo.News",
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
-                        Name = c.String(),
-                        Price = c.Int(nullable: false),
+                        Title = c.String(),
+                        Photo = c.String(),
                         Description = c.String(),
-                        Category = c.String(),
-                        MainPhoto = c.String(),
+                        Text = c.String(),
                     })
                 .PrimaryKey(t => t.ID);
             
@@ -24,7 +23,7 @@ namespace DomTextil.Domain.Migrations
         
         public override void Down()
         {
-            DropTable("dbo.Products");
+            DropTable("dbo.News");
         }
     }
 }

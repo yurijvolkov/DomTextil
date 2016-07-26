@@ -1,0 +1,19 @@
+﻿@model DomTextil.Domain.Entities.News
+
+@{
+    ViewBag.Title = "ConcreteNews";
+}
+<div class="container" style="background-color:white; border-radius:5px; 
+        padding-left:2px;  margin-left:4%; margin-top:3%; height:75%; width:92%;  min-width:1000px; position:absolute;">
+    <h2>@Model.Title</h2>
+    <hr style="height:5px; color:blue; border:none; background-color:#64adeb;" />
+    
+    <div style="height:76%; width:100%;overflow-y:scroll; ">
+        <p style="max-height:50%; width:60%; word-wrap:break-word; display:inline; ">
+            <img src="@Model.Photo" style="float:left; margin:7px 7px 7px 7px;  height:75%;" />
+            @Model.Text
+        </p>
+    </div>
+
+</div>
+
