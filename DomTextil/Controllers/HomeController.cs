@@ -21,7 +21,7 @@ namespace DomTextil.Controllers
         {
             ViewBag.Title = "Стартовая страница";
             //   Discount d = new Domain.Entities.Discount() { Description = "desx", PublisTime = DateTime.Now, Text = "text", Title = "title" };
-          
+            
             return View();
         }
         //public PartialViewResult NewsAtom()
